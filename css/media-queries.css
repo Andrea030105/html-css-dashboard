@@ -7,3 +7,9 @@
         width: 150px;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .offcanvas.offcanvas-end {
+        width: 100vw;
+    }
+}
