@@ -49,13 +49,40 @@ aside {
     height: calc(90vh / 2);
 }
 
-/* .top-bar {
-    height: 100px;
-    width: calc(100vw - 100px);
-    background-color: blueviolet;
+/* CONTAINER TOPBAR MAIN */
+
+.conatiner-topbar-main {
+    width: calc(100vw - 60px);
 }
 
-.main-content {
+/* TOP-BAR  */
+
+.top-bar {
+    background-color: #006de3;
+}
+
+.badge-topbar {
+    background-color: #0457b6;
+    border-radius: 10px;
+    padding: .2rem .7rem;
+    font-size: .7rem;
+    display: inline;
+}
+
+.badge-plus {
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: .2rem;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+/* .main-content {
     background-color: yellow;
     width: calc(100vw - 100px);
     height: calc(100vh - 100px);
