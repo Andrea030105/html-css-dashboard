@@ -96,9 +96,9 @@
                             <div class="col-12 col-md-4 col-lg-2 order-sm-3">
                                 <div class="d-flex align-items-center my-3">
                                     <p class="mb-0">Nuovo Studente</p>
-                                    <button class="btn btn-primary mx-2" type="button" data-bs-toggle="offcanvas"
-                                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
-                                            class="fa-solid fa-plus"></i></button>
+                                    <button class="btn btn-primary btn-transparent mx-2" type="button"
+                                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                        aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
 
                                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                                         aria-labelledby="offcanvasRightLabel">
@@ -109,7 +109,79 @@
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="offcanvas-body">
-                                            ...
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <label class="my-2">Nome</label>
+                                                        <div class="form-floating mb-3">
+                                                            <input type="text" class="form-control" id="floatingInput">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="my-2">Cognome</label>
+                                                        <div class="form-floating mb-3">
+                                                            <input type="text" class="form-control" id="floatingInput">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="my-2">Email</label>
+                                                        <div class="input-group mb-3">
+                                                            <span class="input-group-text">@</span>
+                                                            <div class="form-floating">
+                                                                <input type="text" class="form-control"
+                                                                    id="floatingInputGroup1" placeholder="Username">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="my-2">Password</label>
+                                                        <div class="form-floating mb-3">
+                                                            <input type="password" class="form-control"
+                                                                id="floatingInput">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="my-2">Indirizzo</label>
+                                                        <div class="form-floating mb-3">
+                                                            <input type="text" class="form-control" id="floatingInput">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="my-2">Citt&agrave;</label>
+                                                        <div class="form-floating mb-3">
+                                                            <input type="text" class="form-control" id="floatingInput">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="my-2">Stato</label>
+                                                        <div class="form-floating">
+                                                            <select class="form-select" id="floatingSelectGrid">
+                                                                <option selected>Italia</option>
+                                                                <option value="1">Cina</option>
+                                                                <option value="2">Canda</option>
+                                                                <option value="3">Australia</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label class="my-2">Cap</label>
+                                                        <div class="form-floating mb-3">
+                                                            <input type="text" class="form-control" id="floatingInput">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <input class="form-control" type="file" id="fromFile">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="d-flex">
+                                                            <button type="submit"
+                                                                class="btn btn-primary m-2">Salva</button>
+                                                            <button type="reset"
+                                                                class="btn btn-warning m-2">Svuota</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
