@@ -53,6 +53,7 @@ aside {
 
 .conatiner-topbar-main {
     width: calc(100vw - 60px);
+    height: calc(100vh - 80px);
 }
 
 /* TOP-BAR  */
@@ -89,8 +90,23 @@ aside {
     padding-top: 0 !important;
 }
 
-/* .main-content {
-    background-color: yellow;
-    width: calc(100vw - 100px);
-    height: calc(100vh - 100px);
-} */
+/* MAIN CONTENT */
+
+.table-row-img {
+    width: 30px;
+}
+
+.btn-table-gray {
+    padding: 6px;
+    font-size: 1.2rem;
+    width: 50px;
+    background-color: transparent;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.btn-table-gray:hover {
+    background-color: gray;
+    color: white;
+}
