@@ -36,6 +36,10 @@
     border: none;
 }
 
+.dropdown-menu[data-bs-popper] {
+    left: -130px;
+}
+
 /* ASIDE */
 
 aside {
