@@ -2,4 +2,8 @@
     .w-form {
         width: calc(100% - 300px);
     }
+
+    aside {
+        width: 150px;
+    }
 }

@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 /* NAV BAR */
@@ -35,13 +36,20 @@
     border: none;
 }
 
+/* ASIDE */
+
 aside {
-    background-color: blue;
-    height: 100vh;
-    width: 100px;
+    background-color: #021d33;
+    height: calc(100vh - 80px);
+    width: 60px;
 }
 
-.top-bar {
+.top-col,
+.bottom-col {
+    height: calc(90vh / 2);
+}
+
+/* .top-bar {
     height: 100px;
     width: calc(100vw - 100px);
     background-color: blueviolet;
@@ -51,4 +59,4 @@ aside {
     background-color: yellow;
     width: calc(100vw - 100px);
     height: calc(100vh - 100px);
-}
+} */
