@@ -1,0 +1,5 @@
+@media screen and (min-width: 992px) {
+    .w-form {
+        width: calc(100% - 300px);
+    }
+}

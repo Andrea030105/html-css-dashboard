@@ -4,10 +4,35 @@
     box-sizing: border-box;
 }
 
-.bg-red {
-    height: 100px;
-    width: 100%;
-    background-color: red;
+/* NAV BAR */
+
+.bg-nav {
+    height: 80px;
+    background-color: #f8f9fa;
+}
+
+.w-form {
+    width: calc(100% - 100px);
+}
+
+.logo-mobile {
+    width: 40px;
+}
+
+.icon-nav {
+    color: #5b5858;
+}
+
+.cl-bell {
+    color: #ff912c;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    border: none;
 }
 
 aside {
