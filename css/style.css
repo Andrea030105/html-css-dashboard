@@ -53,6 +53,11 @@ aside {
     height: calc(90vh / 2);
 }
 
+.icon-aside:hover {
+    background-color: rgb(88, 87, 87);
+    cursor: pointer;
+}
+
 /* CONTAINER TOPBAR MAIN */
 
 .conatiner-topbar-main {
