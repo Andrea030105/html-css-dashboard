@@ -19,39 +19,36 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid">
+    <header class="d-flex align-items-center">
+        <div class="container-fluid bg-white">
             <div class="row">
-                <div class="col-12">
-                    <div class="bg-nav d-flex align-items-center justify-content-center">
-                        <nav class="navbar bg-body-tertiary w-100">
-                            <div class="container-fluid">
-                                <img class="d-none d-lg-block" src="./img/logo.svg" alt="logo">
-                                <img class="d-lg-none logo-mobile" src="./img/mobile-logo.png" alt="mobile-logo">
-                                <form class="d-flex w-form" role="search">
-                                    <input class="form-control me-2" type="search" placeholder="Search"
-                                        aria-label="Search" />
-                                </form>
-                                <div class="icon-nav d-flex align-items-center">
-                                    <div class="d-none d-lg-block">
-                                        <i class="fa-solid fa-list mx-1"></i>
-                                        <i class="fa-solid fa-circle-question mx-1"></i>
-                                        <i class="fa-solid fa-ellipsis-vertical mx-1"></i>
-                                    </div>
-                                    <div class="dropdown">
-                                        <button class="btn" type="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
-                                            <i class="fa-solid fa-bell cl-bell"></i>
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
+                <div class="col-auto d-flex align-items-center">
+                    <img class="d-none d-lg-block" src="./img/logo.svg" alt="logo">
+                    <img class="d-lg-none logo-mobile" src="./img/mobile-logo.png" alt="mobile-logo">
+                </div>
+                <div class="col">
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Prova a cercare: Lezioni di laravel" />
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="icon-nav d-flex align-items-center">
+                        <div class="d-none d-lg-block">
+                            <i class="fa-solid fa-list mx-1"></i>
+                            <i class="fa-solid fa-circle-question mx-1"></i>
+                            <i class="fa-solid fa-ellipsis-vertical mx-1"></i>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell cl-bell"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -62,7 +59,7 @@
             <aside class="text-light fw-bold">
                 <div class="container-fluid">
                     <div class="row flex-column">
-                        <div class="col-6 w-100">
+                        <div class="col-12">
                             <div class="top-col py-3 fs-5">
                                 <div class="icon-aside d-flex align-items-center my-3">
                                     <i class="fa-solid fa-house"></i>
@@ -78,7 +75,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 w-100">
+                        <div class="col-12">
                             <div class="bottom-col d-flex align-items-end pb-3 fs-5">
                                 <div class="icon-aside d-flex align-items-center">
                                     <i class="fa-solid fa-gear"></i>

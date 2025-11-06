@@ -5,15 +5,40 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* UTULITY */
+
+.bg-white {
+    background-color: white;
+}
+
 /* NAV BAR */
 
-.bg-nav {
+header {
     height: 80px;
     background-color: #f8f9fa;
 }
 
-.w-form {
-    width: calc(100% - 100px);
+.search-bar {
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.search-bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.search-bar input::placeholder {
+    font-size: 14px;
+}
+
+.search-bar i {
+    padding-right: 15px;
 }
 
 .logo-mobile {
@@ -33,7 +58,7 @@
 .btn.show,
 .btn:first-child:active,
 :not(.btn-check)+.btn:active {
-    border: none;
+    border-color: transparent;
 }
 
 .dropdown-menu[data-bs-popper] {
